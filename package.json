@@ -1,0 +1,14 @@
+{
+  "name": "tix-ticket-booking-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A free-tier event ticket reservation learning project",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.13.2"
+  }
+}

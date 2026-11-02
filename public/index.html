@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee"><meta name="description" content="Find your next good night out. Discover and reserve tickets for independent events in Mumbai.">
+  <title>Tix — Good things happen here</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/" aria-label="Tix home"><span class="brand-mark">t</span><span>tix<span class="brand-dot">.</span></span></a><nav><a href="#events">Explore</a><a href="#how">How it works</a></nav><a class="admin-link" href="/admin">Host an event <span>↗</span></a></header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> GOOD THINGS HAPPEN HERE</div><h1>Make room<br>for <em>something</em><br>good.</h1><p class="hero-lede">Little moments. Big nights. Find the kind of plans you’ll still be talking about on Monday.</p><a class="button button-dark" href="#events">Find your next thing <span>↓</span></a><div class="hero-note"><span class="note-star">✳</span><span>Independent events,<br>picked with feeling.</span></div></div>
+      <div class="hero-art" aria-label="Event stage at sunset"><img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1500&q=85" alt="A crowd enjoying an outdoor concert at sunset"><div class="art-gradient"></div><div class="art-caption"><span>UP NEXT</span><strong>Find your people.</strong></div><div class="art-stamp"><span>LIVE<br>YOUR<br>LOCAL</span><b>↗</b></div></div>
+      <div class="hero-bottom"><span>MUMBAI, INDIA</span><span>19° 03′ N&nbsp; / &nbsp;72° 50′ E</span><span>MADE FOR GOING OUT&nbsp; ↗</span></div>
+    </section>
+    <section class="events-section" id="events"><div class="section-heading"><div><div class="eyebrow">THE GOOD STUFF</div><h2>Plans worth <em>making.</em></h2></div><p>Small rooms, open skies, familiar faces.<br>There’s a little something for everyone.</p></div><div class="filter-row" role="group" aria-label="Filter events"><button class="filter active" data-filter="All">All events <span id="event-count">04</span></button><button class="filter" data-filter="Music">Music</button><button class="filter" data-filter="Workshop">Workshops</button><button class="filter" data-filter="Comedy">Comedy</button><button class="filter" data-filter="Community">Community</button><span class="sort-label">MUMBAI&nbsp; · &nbsp;JAN — FEB ’27</span></div><div id="event-grid" class="event-grid" aria-live="polite"><div class="loading-card">Finding good plans<span>···</span></div></div></section>
+    <section class="how-section" id="how"><div class="how-top"><div class="eyebrow">NO FUSS. JUST FUN.</div><h2>From “maybe”<br>to <em>“see you there.”</em></h2></div><div class="how-steps"><article><span>01</span><h3>Find your thing</h3><p>Browse intimate gigs, good workshops, and nights out worth leaving home for.</p></article><article><span>02</span><h3>Save your spot</h3><p>Pick a ticket quantity and leave your name. We’ll hold your place.</p></article><article><span>03</span><h3>Show up happy</h3><p>Keep your confirmation code handy and enjoy the event. Easy as that.</p></article></div><div class="demo-note">A learning-project demo: reservations are free and no payment is taken.</div></section>
+  </main>
+  <footer><a class="brand" href="/"><span class="brand-mark">t</span><span>tix<span class="brand-dot">.</span></span></a><span>As Lateef's production. &nbsp; © 2026 Tix</span><a href="/admin">EVENT HOSTS ↗</a></footer>
+  <dialog id="booking-dialog" class="booking-dialog"><button class="dialog-close" type="button" aria-label="Close">×</button><div id="booking-content"></div></dialog>
+  <script src="/app.js" defer></script>
+</body></html>
